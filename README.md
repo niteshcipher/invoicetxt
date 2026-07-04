@@ -2,17 +2,7 @@ FinAI Enterprise ERP - Unstructured Document Ingestion PipelineFinAI Enterprise 
 
 
 📊 Database Schema BlueprintExtracted metrics are normalized and written to a localized SQLite engine using the following architecture:Column NameSQL TypePurposeExampleidINTEGER PRIMARY KEYAuto-incrementing unique index row key1dateTEXTExtracted posting/value transaction date03-Jan-2026party_nameTEXTAI resolved master corporate identity profileRahul TradersamountREALClean numeric floating point transaction value5000.00typeTEXTDirectional cash flow marker flag (Debit/Credit)DebitdescriptionTEXTRaw, unaltered bank statement narration stringUPI/123456/RHLTRD JAIPUR🛠️ Project StructurePlaintextmodel-financial/
-├── app/
-│   ├── core/
-│   │   ├── spatial_parser.py     # Core Dynamic Horizontal Gap & Layout Engine
-│   │   ├── ledger.py             # SQLite data validation and database writing core
-│   │   └── classifier.py         # TF-IDF Vectorizer + Document Type Classifier
-│   └── main.py                   # FastAPI REST Endpoints & Route Controller
-├── data/
-│   └── financial_erp.db          # Auto-generated SQLite Relational Database
-├── app_frontend.py               # Streamlit Top Tab Interface Workspace
-├── requirements.txt              # Unified dependencies catalog
-└── README.md                     # System documentation
+
 💻 Installation & QuickstartPrerequisite EnvironmentEnsure you have Python 3.10+ installed on your system.1. Clone the Directory & Initialize Virtual EnvironmentBashcd model-financial
 python -m venv venv
 Windows Activator:Bashvenv\Scripts\activate

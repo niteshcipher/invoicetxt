@@ -1,0 +1,15 @@
+TAX INVOICE
+Invoice Number: INV-2026-001
+Date: 15-Jan-2026
+GSTIN: 27AAAT1234M1Z2
+
+Bill To: Rahul Traders
+
+Description: Cloud ERP Infrastructure Setup
+HSN Code: 8471
+Amount: 12,500.00
+CGST (9%): 1,125.00
+SGST (9%): 1,125.00
+
+Total Amount Due: 14,750.00
+Authorized Signatory

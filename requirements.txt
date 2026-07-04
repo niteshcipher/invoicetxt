@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+openpyxl
+pypdf
+easyocr
+scikit-learn
+rapidfuzz
